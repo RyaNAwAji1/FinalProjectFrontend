@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,300;1,400;1,500&family=Roboto:ital,wght@0,500;0,700;1,400;1,500;1,700&display=swap');
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  overflow: hidden;
+}
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 3px 2px 5px ;
+  padding: 1rem;
+  height: 60px;
+  position: sticky;
+}
+.Logo{
+  font-size: 33px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+span{
+  color: rgb(158, 7, 7);
+}
+.subscrip {
+  padding: 6px 16px;
+  font-size: 18px;
+  background-color: rgb(158, 7, 7);
+  border-radius: 1rem;
+}
+.subscrip .log{
+  color: #fff;
+  text-decoration: none;
+}
+.subscrip:hover{
+  cursor: pointer;
+  background-color: rgba(158, 7, 7,0.6);
+}
+.NavBary{
+  text-align: center;
+}
+
+.NavBary :nth-child(1){
+  padding: 6px 18px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.NavBary :nth-child(2){
+  padding: 6px 18px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.NavBary :nth-child(3){
+  padding: 6px 18px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.NavBary :nth-child(4){
+  padding: 6px 18px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.NavBary :nth-child(1):hover,
+.NavBary :nth-child(1).active{
+  padding: 6px 18px;
+  color: rgb(158, 7, 7);
+  text-decoration: none;
+  font-size: 20px;
+}
+.NavBary :nth-child(2):hover{
+  padding: 6px 18px;
+  color: rgb(158, 7, 7);
+  text-decoration: none;
+  font-size: 20px;
+}
+.NavBary :nth-child(3):hover{
+  padding: 6px 18px;
+  color: rgb(158, 7, 7);
+  text-decoration: none;
+  font-size: 20px;
+}
+.NavBary :nth-child(4):hover{
+  padding: 6px 18px;
+  color: rgb(158, 7, 7);
+  text-decoration: none;
+  font-size: 20px;
+}
+.Main{
+  position: relative;
+}
+
+.img img{
+  width: 100%;
+  height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlody{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0,0.6);
+  z-index: 1;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  z-index: 222;
+}
+.text h1{
+  font-size: 26px;
+  text-transform: capitalize;
+}
+.text p{
+  margin-top: 16px;
+}
+.text button{
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: rgb(158, 7, 7);
+  color:#fff;
+  border-radius: 8px;
+  border: none;
+}
+.text button:hover{
+  cursor: pointer;
+  transform: scale(0.9); 
+  background-color: rgba(158, 7, 7,0.6);
+  overflow: hidden;
+}
+.aboutAs{
+  padding: 27px 0;
+}
+h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+.aboutAs p{
+  font-size: 22px;
+  margin-top: 20px;
+  text-align: center;
+}
+/* .product{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./imegas/secondImg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+} */
+/* .product .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.8);
+  z-index: -1; */
+/* } */
+.product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form{
+display: block;
+}
+.product .search-form input{
+  padding: 12px;
+  border-radius: 5px;
+}
+.p1{
+  padding: 40px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.wrapper{
+  background-image: linear-gradient(#ffffff,#323535);
+}
+.section1{
+  margin: 0 auto;
+  width: 1030px;
+
+}
+.h6{
+  margin: 30px 0;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .p1{
+  text-align: center;
+  text-transform: capitalize;
+}
+.section1 .imgg1{
+  width: 50%;
+  margin: 25px 0;
+}
+.section1 .imgg1 img{
+  width: 100%;
+  transform: translatex(50%);
+}
+.section1 .p2{
+  text-align: center;
+  text-transform: capitalize;
+  
+}
+.section1 .imgg2{
+  width: 50%;
+  margin: 25px 0;
+}
+.section1 .imgg2 img{
+  width: 100%;
+  transform: translatex(50%);
+}
+.section1 .p3{
+  text-align: center;
+  text-transform: capitalize;
+}
+.section1 .imgg3{
+  width: 50%;
+  margin: 25px 0;
+}
+.section1 .imgg3 img{
+  width: 100%;
+  transform: translatex(50%);
+} 
+
+
+
